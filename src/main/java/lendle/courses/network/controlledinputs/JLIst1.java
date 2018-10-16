@@ -38,5 +38,13 @@ public class JLIst1 {
         
         frame.setVisible(true);
     }
+
+    static int getSelectedIndex() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    static void updateUI() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
