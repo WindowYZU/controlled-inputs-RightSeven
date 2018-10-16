@@ -76,7 +76,7 @@ public class JList2 extends javax.swing.JFrame {
         String t = jTextField1.getText();
         DefaultListModel modle = (DefaultListModel) jList1.getModel();
         modle.addElement(t);
-        jList1.updatwUI();
+        jList1.updateUI();
         //////////////////////////////////
     }//GEN-LAST:event_jButton1ActionPerformed
 
