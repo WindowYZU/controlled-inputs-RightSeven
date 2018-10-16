@@ -73,7 +73,10 @@ public class JList2 extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         //取得 DefaultListModel 並且新增資料
-        
+        String t = jTextField1.getText();
+        DefaultListModel modle = (DefaultListModel) jList1.getModel();
+        modle.addElement(t);
+        jList1.updatwUI();
         //////////////////////////////////
     }//GEN-LAST:event_jButton1ActionPerformed
 
