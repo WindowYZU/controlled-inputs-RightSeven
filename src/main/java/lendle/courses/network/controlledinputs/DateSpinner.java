@@ -30,7 +30,9 @@ public class DateSpinner {
         frame.setLayout(new FlowLayout());
         JSpinner spinner=new JSpinner();
         //create a SpinnerDateModel
-        
+        SpinnerDateModel model = new SpinnerDateModel();
+        model.setCalendarField(Calendar.DATE);
+        spinner.setModel(model);
         ///////////////////////////////////////////////////
         frame.add(spinner);
         
